@@ -1,5 +1,7 @@
-frutas = ["maça", "banana", "cereja"]
+nomes = ["Lucas", "Vinicios", "Davi", "Arthur", "Toddyn", "Arthur F", "Maria", "Pietra", "Miguel", "Apollo", "Bernardo", "Eric", "Kaua"]
 
-print(frutas[0])
-print(frutas[1])
-print(frutas[2])
+print(nomes[10])
+print(nomes[7])
+print(nomes[2])
+print(nomes[4])
+print(nomes[12])
