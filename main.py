@@ -1,7 +1,12 @@
-nomes = ["Lucas", "Vinicios", "Davi", "Arthur", "Toddyn", "Arthur F", "Maria", "Pietra", "Miguel", "Apollo", "Bernardo", "Eric", "Kaua"]
+num1 = float(input("Digite um valor: "))
+num2 = float(input("Digite um valor: "))
 
-print(nomes[10])
-print(nomes[7])
-print(nomes[2])
-print(nomes[4])
-print(nomes[12])
+soma = num1 + num2
+subt = num1 - num2 
+mult = num1 * num2
+div = num1 / num2
+
+print("Soma: ", soma)
+print("Subtração: ", subt)
+print("Multiplicação: ", mult)
+print("Divisão: ", div)
