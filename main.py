@@ -1,5 +1,3 @@
-pergunta1 = "O que você acha do github?"
-resposta1 = "Gosto"
+nome = input("Digite seu nome: ")
 
-print(pergunta1)
-print(resposta1)
+print(nome)
