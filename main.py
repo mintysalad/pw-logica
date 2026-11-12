@@ -1,9 +1,6 @@
-a = 5 #numero int
-b = 6.7 #numero com .
-nome = "miau" #string
-ligado = True #bool
-
-print(a)
-print(b)
-print(nome)
-print(ligado)
+print (5 +2)
+print(232323 + 1)
+print(1+1)
+print(4/2)
+print(30 * 29)
+print(7-6)
