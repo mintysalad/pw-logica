@@ -1,6 +1,5 @@
 frutas = ["maça", "banana", "cereja"]
-x, y, z = frutas
 
-print(x)
-print(y)
-print(z)
+print(frutas[0])
+print(frutas[1])
+print(frutas[2])
