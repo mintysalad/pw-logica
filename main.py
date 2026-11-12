@@ -1,6 +1,5 @@
-print (5 +2)
-print(232323 + 1)
-print(1+1)
-print(4/2)
-print(30 * 29)
-print(7-6)
+pergunta1 = "O que você acha do github?"
+resposta1 = "Gosto"
+
+print(pergunta1)
+print(resposta1)
