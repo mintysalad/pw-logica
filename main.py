@@ -1,13 +1,16 @@
-nota = float(input("Digite sua nota: "))
+peso = float(input("Digite seu peso : "))
+altura = float(input("Digite sua altura (ex: 1.70): "))
 
-if nota >= 9:
-    print("Conceito A.")
+imc = peso / (altura * altura)
 
-elif nota >= 7:
-    print("Conceito B.")
+if imc < 18.5:
+    print(f"Abaixo do peso: {imc}")
 
-elif nota >= 5:
-    print("Conceito C.")
+elif imc < 25:
+    print(f"Peso normal: {imc}")
 
-elif nota < 5:
-    print("Reprovado.")
+elif imc < 30:
+    print(f"Acima do peso: {imc}")
+
+else:
+    print(f"Obesidade: {imc}" )
