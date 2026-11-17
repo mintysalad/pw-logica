@@ -1,7 +1,10 @@
-idade = int(input("Digite sua idade: "))
+nota = int(input("Digite sua nota: "))
 
-if idade >= 18:
-    print("Você é de maior.")
+if nota == 10:
+    print("Você gabaritou.")
+
+elif nota != 0:
+    print("Você não zerou.")
 
 else:
-    print("Você é de menor.")
+    print("Você zerou.")
