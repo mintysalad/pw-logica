@@ -1,10 +1,13 @@
-nota = int(input("Digite sua nota: "))
+nota = float(input("Digite sua nota: "))
 
-if nota == 10:
-    print("Você gabaritou.")
+if nota >= 9:
+    print("Conceito A.")
 
-elif nota != 0:
-    print("Você não zerou.")
+elif nota >= 7:
+    print("Conceito B.")
 
-else:
-    print("Você zerou.")
+elif nota >= 5:
+    print("Conceito C.")
+
+elif nota < 5:
+    print("Reprovado.")
