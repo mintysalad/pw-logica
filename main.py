@@ -1,16 +1,13 @@
-peso = float(input("Digite seu peso : "))
-altura = float(input("Digite sua altura (ex: 1.70): "))
+idade = int(input("Digite sua idade: "))
 
-imc = peso / (altura * altura)
+if idade <= 12:
+    print("Criança")
 
-if imc < 18.5:
-    print(f"Abaixo do peso: {imc}")
+elif idade <= 17:
+    print("Adolescente")
 
-elif imc < 25:
-    print(f"Peso normal: {imc}")
-
-elif imc < 30:
-    print(f"Acima do peso: {imc}")
+elif idade <= 59:
+    print("Adulto")
 
 else:
-    print(f"Obesidade: {imc}" )
+    print("Idoso")
