@@ -1,10 +1,10 @@
-alunos = ["Pedro", "João", "Ana", "Davi", "Lucas"]
+compras = ["Pão", "Alface", "Mostarda"]
 
-print(alunos)
-print(alunos[0])
-print(alunos[4])
+compras.append("Tomate")
+compras.append("Carne")
 
-quantidade = len(alunos)
-print(f"Temos {quantidade} alunos cadastrados.")
+quantidade = len(compras)
+print(f"Temos {quantidade} produtos sendo comprados.")
 
+print(compras)
 
