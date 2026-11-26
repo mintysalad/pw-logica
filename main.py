@@ -1,6 +1,8 @@
 alunos = ["Pedro", "João", "Ana", "Davi", "Lucas"]
 
 print(alunos[2])
+alunos.remove("Pedro")
+print(alunos)
 
 alunos.append("Erick")
 print(alunos)
